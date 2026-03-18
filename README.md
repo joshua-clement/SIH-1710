@@ -11,16 +11,70 @@ Background: Railway stations are complex environments with numerous facilities a
 Ministry of Railway
 
 ## Idea
-
+To develop a smart digital navigation system that assists passengers in easily locating platforms, facilities, and exits داخل railway stations using real-time guidance, intelligent routing, and user-friendly interfaces.
 
 ## Proposed Solution / Architecture Diagram
+The system will provide an interactive navigation platform that:
+
+Maps railway stations as a digital layout
+
+Calculates the shortest path between locations
+
+Displays directions visually on a map interface
+
+Offers voice-guided assistance for hands-free navigation
+
+Supports multiple languages for better accessibility
+
+
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/a81dbbe6-3c18-4d0d-81d7-e9db09832377" />
+
 
 
 ## Use Cases
+A passenger finding the quickest route to their platform
+
+A new visitor locating ticket counters or restrooms
+
+Elderly or visually impaired users using voice navigation
+
+Passengers navigating crowded stations efficiently
+
+Emergency situations where quick exits are required
+
+
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/a8b69ba7-ab9c-4ad9-ad6f-382e6918c8d9" />
+
 
 
 ## Technology Stack
+Frontend: React.js / HTML, CSS, JavaScript
 
+Backend: Node.js with Express
+
+Database: MongoDB (optional)
+
+AI/ML: Python (for voice and smart features)
+
+Tools: GitHub, VS Code
 
 ## Dependencies
+Backend
 
+express
+
+cors
+
+nodemon (for development)
+
+Frontend
+
+react
+
+axios
+
+AI Module
+
+pyttsx3 (for text-to-speech)
+
+speechrecognition (optional for voice input)
